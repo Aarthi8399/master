@@ -20,7 +20,7 @@ require $server_dir.'scripts/wampserver.lib.php';
 $aliasDir = $server_dir.'alias/';
 
 //Fonctionne à condition d'avoir ServerSignature On et ServerTokens Full dans httpd.conf
-$server_software = $_SERVER['SERVER_SOFTWARE'];
+$server_software = $_SERVER['SERVER_SOFT'];
 $error_content = '';
 
 // on récupère les versions des applis
